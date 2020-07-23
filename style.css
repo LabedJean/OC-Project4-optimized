@@ -30,6 +30,7 @@ a:hover {
 .p-subtitle-citation{
     font-size: 22px;
     font-style: italic;
+    width: 65%;
 }
 .p-citation-personne{
     font-size: 15px
@@ -680,7 +681,9 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+a:hover{
+    text-decoration: underline !important;
+}
 .container {
     max-width: 1000px;
 }
@@ -691,16 +694,6 @@ a {
 
 .hero-bloc-text-sub {
     font-size: 36px;
-}
-
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
 }
 
 p {
@@ -773,6 +766,11 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+.citation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .avatar {
