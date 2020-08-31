@@ -15,6 +15,12 @@ button {
 a:hover {
     cursor: pointer;
 }
+li{
+    color: black !important;
+}
+.subtitle{
+    color: white !important;
+}
 .p-subtitle{
     font-size: 22px;
     width: 60%
